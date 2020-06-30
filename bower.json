@@ -1,0 +1,9 @@
+{
+  "name": "project-name",
+  "version": "0.0.1",
+  "dependencies": {
+    // "jquery-ui": "~1.11.4",
+    // "bootstrap": "~3.3.5",
+    // "font-awesome": "4.3.0"
+  }
+}
