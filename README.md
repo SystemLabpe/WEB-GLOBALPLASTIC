@@ -6,15 +6,9 @@
 		Ctrl + Shift + P > Package Control: Install Package > Editor Config
 2. Instalar node 
 	http://nodejs.org/downloads
-* 3. Instalar Gulp	
-	npm install -g gulp
-* 4. Instalar Bower	 
-	npm install -g bower
-5. Instalar los devDependencies
+3. Instalar los devDependencies
 	npm install
-5.1 bower install
+4. Instalar bower 
+	bower install
 6. Ejecutar el Gulp
 	gulp
---------------------------------------------------------------------
- * Para instalar dependencias, abrir otra terminal e instalar, ejm:
- 				bower install --save angular
