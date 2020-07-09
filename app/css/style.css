@@ -1,4 +1,4 @@
- 
+
 /* Css For Uaques */
 
 /************ TABLE OF CONTENTS ***************
@@ -44,7 +44,7 @@
 
 
 
-/*** 
+/***
 
 ====================================================================
   Reset
@@ -59,7 +59,7 @@
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -142,7 +142,7 @@ input,button,select,textarea{
 ul,li{
   list-style:none;
   padding:0px;
-  margin:0px; 
+  margin:0px;
 }
 
 input{
@@ -340,7 +340,7 @@ img {
 }
 
 .scroll-top:hover{
-  
+
 }
 
 .scroll-top.open {
@@ -382,7 +382,7 @@ img {
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-One
@@ -574,7 +574,7 @@ img {
 }
 
 .main-header .outer-container .header-upper .upper-right .menu-right-content .cart-box a:hover span{
-  
+
 }
 
 /** search box btn **/
@@ -789,7 +789,7 @@ img {
 
 .main-menu .navigation > li > ul.from-right{
   left:auto;
-  right:0px;  
+  right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -801,7 +801,7 @@ img {
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-  border-bottom:none; 
+  border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li:hover{
@@ -840,7 +840,7 @@ img {
   font-size:16px;
   font-weight:800;
   text-align:center;
-  z-index:5;  
+  z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul{
@@ -867,7 +867,7 @@ img {
 
 .main-menu .navigation > li > ul > li > ul.from-right{
   left:auto;
-  right:0px;  
+  right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -884,11 +884,11 @@ img {
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-  border-bottom:none; 
+  border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-  border-bottom:none; 
+  border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -923,7 +923,7 @@ img {
   line-height:24px;
   font-size:16px;
   font-weight:900;
-  z-index:5;  
+  z-index:5;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -953,7 +953,7 @@ img {
   -moz-transition:all 300ms ease;
   -webkit-transition:all 500ms ease;
   -ms-transition:all 300ms ease;
-  -o-transition:all 300ms ease; 
+  -o-transition:all 300ms ease;
 }
 
 .main-menu .navigation li.dropdown .dropdown-btn{
@@ -1026,13 +1026,13 @@ img {
 }
 
 .mobile-menu .navbar-collapse{
-  display:block !important; 
+  display:block !important;
 }
 
 .mobile-menu .nav-logo{
   position:relative;
   padding:30px 25px;
-  text-align:left;  
+  text-align:left;
 }
 
 .mobile-menu-visible{
@@ -1171,7 +1171,7 @@ img {
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li ul li > a{
@@ -1190,12 +1190,12 @@ img {
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .navigation li.current > a,
 .mobile-menu .navigation li > a:hover{
-   
+
 }
 
 .mobile-menu .navigation li.current > a:before{
@@ -1219,14 +1219,14 @@ img {
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
   z-index:5;
 }
 
-.mobile-menu .navigation li.dropdown .dropdown-btn.open{ 
+.mobile-menu .navigation li.dropdown .dropdown-btn.open{
   -webkit-transform:rotate(90deg);
   -ms-transform:rotate(90deg);
-  transform:rotate(90deg);  
+  transform:rotate(90deg);
 }
 
 .mobile-menu .navigation li > ul,
@@ -1254,11 +1254,11 @@ img {
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
-  transition: all 500ms ease; 
+  transition: all 500ms ease;
 }
 
 .mobile-menu .social-links li a:hover{
-  color:#f96b39;  
+  color:#f96b39;
 }
 
 div#mCSB_1_container{
@@ -1658,7 +1658,7 @@ div#mCSB_1_container{
 }
 
 .feature-block-one:hover .inner-box .icon-box{
-  
+
 }
 
 .feature-block-one .inner-box h3{
@@ -1677,7 +1677,7 @@ div#mCSB_1_container{
 }
 
 .feature-block-one .inner-box h3 a:hover{
-  
+
 }
 
 .feature-block-one .inner-box .text{
@@ -1693,7 +1693,7 @@ div#mCSB_1_container{
 }
 
 .feature-block-one .inner-box .link a:hover{
-  
+
 }
 
 
@@ -1811,7 +1811,7 @@ div#mCSB_1_container{
 }
 
 .single-shop-block h3 a:hover{
-  
+
 }
 
 .single-shop-block .text{
@@ -1874,7 +1874,7 @@ div#mCSB_1_container{
 
 .delivery-section .owl-theme .owl-dots .owl-dot.active span,
 .delivery-section .owl-theme .owl-dots .owl-dot span:hover{
-  
+
 }
 
 .single-shop-block .inner-box .border-one:before {
@@ -2153,7 +2153,7 @@ div#mCSB_1_container{
 }
 
 .composition-section .upper-content .inner-box .single-item h3 a:hover{
-  
+
 }
 
 .composition-section .upper-content .inner-box .single-item h5{
@@ -2331,7 +2331,7 @@ div#mCSB_1_container{
 
 #content_block_one .content-box .theme-btn.style-two:before,
 #content_block_one .content-box .theme-btn.style-two:after{
-  
+
 }
 
 #content_block_one .content-box .sec-title{
@@ -2556,7 +2556,7 @@ div#mCSB_1_container{
 }
 
 .news-block-one .inner-box .lower-content .inner .info-box li a:hover{
-  
+
 }
 
 .news-block-one .inner-box .lower-content .inner .info-box li i{
@@ -2600,7 +2600,7 @@ div#mCSB_1_container{
 }
 
 .news-block-one .inner-box .lower-content .inner h2 a:hover{
-  
+
 }
 
 .news-block-one .inner-box .lower-content .inner .text{
@@ -2643,7 +2643,7 @@ div#mCSB_1_container{
 }
 
 .news-block-one .inner-box .lower-content .lower-box .share-box .share-link:hover{
-  
+
 }
 
 .news-block-one .inner-box .lower-content .lower-box .share-box:hover .social-links {
@@ -2670,7 +2670,7 @@ div#mCSB_1_container{
 }
 
 .news-block-one .inner-box .lower-content .lower-box .share-box .social-links li a:hover{
-  
+
 }
 
 .news-block-one .inner-box .lower-content .lower-box .share-box .social-links {
@@ -2754,7 +2754,7 @@ div#mCSB_1_container{
 }
 
 .main-footer .footer-top .subscribe-form .form-group input:focus{
-  
+
 }
 
 .main-footer .footer-top .subscribe-form .form-group button{
@@ -2797,7 +2797,7 @@ div#mCSB_1_container{
 }
 
 .main-footer .footer-top .footer-social .social-links li a:hover{
-  
+
 }
 
 .main-footer .footer-upper{
@@ -2852,7 +2852,7 @@ div#mCSB_1_container{
 }
 
 .main-footer .footer-upper .links-widget .widget-content .list li a:hover{
-  
+
 }
 
 .main-footer .footer-upper .footer-widget{
@@ -2898,7 +2898,7 @@ div#mCSB_1_container{
 }
 
 .main-footer .footer-upper .contact-widget .widget-content .list li a:hover{
-  
+
 }
 
 .main-footer .footer-bottom{
@@ -2919,12 +2919,12 @@ div#mCSB_1_container{
 }
 
 .main-footer .footer-bottom .copyright a:hover{
-  
+
 }
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Home-Page-Two
@@ -2968,7 +2968,7 @@ div#mCSB_1_container{
 }
 
 .main-header.style-two .header-top .top-left .info-box li a:hover{
-  
+
 }
 
 .main-header.style-two .header-top .top-left .info-box li i{
@@ -2997,7 +2997,7 @@ div#mCSB_1_container{
 }
 
 .main-header.style-two .header-top .top-right .social-links li a:hover{
-  
+
 }
 
 .main-header.style-two .outer-container .header-upper .upper-left .logo-box {
@@ -3017,7 +3017,7 @@ div#mCSB_1_container{
 }
 
 .main-header.style-two .search-box-btn:hover{
-  
+
 }
 
 
@@ -3267,7 +3267,7 @@ div#mCSB_1_container{
 }
 
 #content_block_two .content-box .phone a:hover{
-  
+
 }
 
 #content_block_two .content-box .phone i{
@@ -3286,7 +3286,7 @@ div#mCSB_1_container{
 }
 
 #content_block_two .content-box .link a:hover{
-  
+
 }
 
 .about-section #content_block_three .inner-box{
@@ -3334,7 +3334,7 @@ div#mCSB_1_container{
 }
 
 #content_block_three .inner-box .form-inner .form-group input:focus{
-  
+
 }
 
 #content_block_three .inner-box .form-inner .form-group label{
@@ -3489,7 +3489,7 @@ div#mCSB_1_container{
 }
 
 .filtration-process .single-item h3 a:hover{
-  
+
 }
 
 .filtration-process .single-item .text{
@@ -3829,7 +3829,7 @@ div#mCSB_1_container{
 }
 
 .team-block-one .inner-box .image-holder .content-box .social-links li a:hover{
-  
+
 }
 
 .team-block-one .inner-box .lower-content{
@@ -3940,7 +3940,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         About-Page
@@ -3979,7 +3979,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Service-Page
@@ -4085,7 +4085,7 @@ div#mCSB_1_container{
 }
 
 .service-block-one .inner-box .lower-content h3 a:hover{
-  
+
 }
 
 .service-block-one .inner-box .lower-content .text{
@@ -4188,7 +4188,7 @@ div#mCSB_1_container{
 }
 
 .request-section .inner-box .form-group .submit-box .checkbox a:hover{
- 
+
 }
 
 .request-section .inner-box .form-group .submit-box .checkbox label input {
@@ -4220,7 +4220,7 @@ div#mCSB_1_container{
 }
 
 .request-section .inner-box .request-form .form-group input:focus{
-  
+
 }
 
 .request-section .inner-box .select-box .ui-state-default{
@@ -4250,7 +4250,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Faq-Page
@@ -4290,7 +4290,7 @@ div#mCSB_1_container{
 }
 
 .faq-section .accordion-box .block .acc-btn.active .icon-outer{
-  
+
 }
 
 .faq-section .accordion-box .block .acc-btn.active .icon-outer i:before{
@@ -4316,7 +4316,7 @@ div#mCSB_1_container{
 }
 
 .faq-section .accordion-box .block .acc-btn.active h3{
-  
+
 }
 
 .faq-section .accordion-box .block .acc-content .text{
@@ -4338,7 +4338,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Error-Page
@@ -4372,11 +4372,11 @@ div#mCSB_1_container{
 }
 
 .error-section .text a{
-  
+
 }
 
 .error-section .text a:hover{
-  
+
 }
 
 .error-section .image-layer {
@@ -4387,7 +4387,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Shop-Page
@@ -4473,7 +4473,7 @@ div#mCSB_1_container{
 }
 
 .shop-page-section .shop-sidebar .sidebar-post .post h5 a:hover{
-  
+
 }
 
 .shop-page-section .shop-sidebar .sidebar-post .post .text{
@@ -4483,7 +4483,7 @@ div#mCSB_1_container{
 }
 
 .shop-page-section .shop-sidebar .sidebar-post .post .text span{
-  
+
 }
 
 .shop-page-section .shop-sidebar .sidebar-post .sub-total{
@@ -4620,12 +4620,12 @@ div#mCSB_1_container{
   height:6px;
   border:none;
   margin-bottom:30px;
-  background:#f3f9ff; 
+  background:#f3f9ff;
 }
 
 .shop-page-section .shop-sidebar .range-slider .ui-slider .ui-slider-range{
   top:0px;
-  height:6px; 
+  height:6px;
 }
 
 .shop-page-section .shop-sidebar .range-slider .ui-state-default,
@@ -4634,7 +4634,7 @@ div#mCSB_1_container{
   width:20px;
   height:20px;
   border-radius:50%;
-  cursor:pointer; 
+  cursor:pointer;
   margin-left: 0px;
   border: 0px;
   box-shadow: none;
@@ -4654,7 +4654,7 @@ div#mCSB_1_container{
 }
 
 .shop-page-section .shop-sidebar .range-slider .filter-btn:hover{
-  
+
 }
 
 .shop-page-section .shop-sidebar .range-slider .value-box{
@@ -4713,6 +4713,18 @@ div#mCSB_1_container{
   margin-top: 50px;
 }
 
+/** shop-custom **/
+.shop-page-section .single-shop-block .text {
+  margin-bottom: 0px;
+}
+
+.shop-page-section .single-shop-block .text span {
+  color: #000;
+}
+
+.shop-page-section .single-shop-block .inner-box {
+  padding: 40px;
+}
 
 /** shop-details **/
 
@@ -4892,7 +4904,7 @@ div#mCSB_1_container{
 }
 
 .shop-details .product-details-content .content-box .list-item li a:hover{
-  
+
 }
 
 .shop-details .product-details-content .content-box{
@@ -4914,7 +4926,7 @@ div#mCSB_1_container{
 }
 
 .tabs-box .tab.active-tab{
-  display:block;  
+  display:block;
 }
 
 .tabs-box .tab{
@@ -4945,7 +4957,7 @@ div#mCSB_1_container{
 
 .shop-details .product-info-tabs .tab-btns li.active-btn,
 .shop-details .product-info-tabs .tab-btns li:hover{
-  
+
 }
 
 .shop-details .product-info-tabs .tab-btns li.active-btn:before,
@@ -4983,7 +4995,7 @@ div#mCSB_1_container{
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Blog-Page
@@ -5047,11 +5059,11 @@ div#mCSB_1_container{
 
 .sidebar-page-container .blog-sidebar .sidebar-search .form-group input:focus + button,
 .sidebar-page-container .blog-sidebar .sidebar-search .form-group button:hover{
-  
+
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-search .form-group input:focus{
-  
+
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-post .post{
@@ -5103,7 +5115,7 @@ div#mCSB_1_container{
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-post .post h5 a:hover{
-  
+
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-post .post .post-date{
@@ -5150,11 +5162,11 @@ div#mCSB_1_container{
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-archives .archives-list li a:hover::before{
-  
+
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-archives .archives-list li a:hover{
-  
+
 }
 
 .sidebar-page-container .blog-sidebar .sidebar-archives{
@@ -5336,7 +5348,7 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .post-share-option .share-box .share-link:hover{
-  
+
 }
 
 .blog-details-content .post-share-option .share-box:hover .social-links {
@@ -5364,7 +5376,7 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .post-share-option .share-box .social-links li a:hover{
-  
+
 }
 
 .blog-details-content .post-share-option .share-box .social-links {
@@ -5391,11 +5403,11 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .post-share-option .tags-list li a{
-  
+
 }
 
 .blog-details-content .post-share-option .tags-list li a:hover{
-  
+
 }
 
 .blog-details-content .post-share-option .tags-list li h5{
@@ -5498,7 +5510,7 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .comments-area .comment .comment-inner .post-info .replay-btn:hover{
-  
+
 }
 
 .blog-details-content .comments-form-area .text{
@@ -5544,7 +5556,7 @@ div#mCSB_1_container{
 
 .blog-details-content .comments-form-area .form-group input:focus,
 .blog-details-content .comments-form-area .form-group textarea:focus{
-  
+
 }
 
 .blog-details-content .comments-form-area .form-group textarea{
@@ -5557,12 +5569,12 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .comments-form-area .form-group .theme-btn{
-  
+
 }
 
 
 
-/*** 
+/***
 
 ====================================================================
                         Contact-Page
@@ -5599,7 +5611,7 @@ div#mCSB_1_container{
 }
 
 .contact-section .info-box .info-list li a:hover{
-  
+
 }
 
 .contact-section .info-box .info-list li:last-child{
@@ -5662,7 +5674,7 @@ div#mCSB_1_container{
 
 .contact-section .inner-box .form-inner .form-group input:focus,
 .contact-section .inner-box .form-inner .form-group textarea:focus{
-  
+
 }
 
 .contact-section .inner-box .form-inner .form-group button{
@@ -5702,7 +5714,7 @@ div#mCSB_1_container{
 
 /** shine-animation **/
 
- 
+
  #starshine {
    position: absolute;
    top: 0;
@@ -5732,7 +5744,7 @@ div#mCSB_1_container{
    z-index: 1;
    overflow: hidden;
  }
- 
+
  .shine {
    display: block;
    position: absolute;
@@ -5752,29 +5764,29 @@ div#mCSB_1_container{
 
  .shine-two{
    background-image: url(../images/icons/glitter-2.png) !important;
- } 
- 
+ }
+
  .shine.shine-1 {
    top: 50%;
    left: 5%;
    -webkit-animation-delay: 1s;
    animation-delay: 1s;
  }
- 
+
  .shine.shine-2 {
    top: 65%;
    left: 40%;
    -webkit-animation-delay: 2s;
    animation-delay: 2s;
  }
- 
+
  .shine.shine-3 {
    top: 26%;
    left: 83%;
    -webkit-animation-delay: 4s;
    animation-delay: 4s;
  }
- 
+
  @-webkit-keyframes glitter {
      0% {
          -webkit-transform: scale(0.3) rotate(0deg);
@@ -5793,7 +5805,7 @@ div#mCSB_1_container{
          opacity: 0;
      }
  }
- 
+
  @keyframes glitter {
      0% {
          -webkit-transform: scale(0.3) rotate(0deg);
@@ -5816,7 +5828,7 @@ div#mCSB_1_container{
          opacity: 0;
      }
  }
- 
+
  @-moz-keyframes glitter {
      0% {
          -moz-transform: scale(0.3) rotate(0deg);
