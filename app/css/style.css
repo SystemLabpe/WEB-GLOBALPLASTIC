@@ -855,7 +855,7 @@ img {
   display:none;
   padding: 0px 0px;
   background-color: #ffffff;
-  border-top: 3px solid #f5a93f;
+  border-top: 3px solid #0578BE;
   -moz-transform: translateY(30px);
   -webkit-transform: translateY(30px);
   -ms-transform: translateY(30px);
@@ -882,8 +882,8 @@ img {
 }
 
 .main-menu .navigation > li > ul > li > ul > li:hover{
-  background: #f5a93f;
-  border-color: #f5a93f;
+  background: #0578BE;
+  border-color: #0578BE;
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
@@ -1735,7 +1735,7 @@ div#mCSB_1_container{
 .top-title .title-inner .sec-title:before{
   position: absolute;
   content: '';
-  background: #346bae;
+  background: #2C4B86;
   width: 3px;
   height: 70px;
   top: 12px;
@@ -3227,7 +3227,7 @@ div#mCSB_1_container{
 #content_block_two .content-box:before{
   position: absolute;
   content: '';
-  background: #346bae;
+  background: #2C4B86;
   width: 3px;
   height: 95px;
   left: 0px;
@@ -3265,7 +3265,7 @@ div#mCSB_1_container{
   font-size: 28px;
   line-height: 35px;
   font-weight: 700;
-  color: #346bae;
+  color: #2C4B86;
   margin-bottom: 33px;
 }
 
@@ -4554,7 +4554,7 @@ div#mCSB_1_container{
   content: "\f0da";
   font-family: 'Font Awesome 5 Free';
   font-size: 16px;
-  color: #346bae;
+  color: #2C4B86;
   font-weight: 700;
   left: 0px;
   top: 0px;
@@ -5273,7 +5273,7 @@ div#mCSB_1_container{
 }
 
 .blog-details-content .inner-box .upper-box .post-info .info-box li a:hover{
-  color: #f5a93f;
+  color: #0578BE;
 }
 
 .blog-details-content .inner-box .lower-box h2{
