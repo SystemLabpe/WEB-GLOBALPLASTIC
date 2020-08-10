@@ -255,25 +255,20 @@
 	//Main Slider Carousel
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
-			loop:true,
-			margin:0,
-			nav:true,
-			animateOut: 'fadeOut',
-    		animateIn: 'fadeIn',
-    		active: true,
-			smartSpeed: 1000,
-			autoplay: 6000,
-			navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right"></span>' ],
+      navigation : false,
+      mouseDrag: false,
+      touchDrag: false,
+      pullDrag: false,
 			responsive:{
 				0:{
 					items:1
-				},
-				600:{
-					items:1
-				},
-				1200:{
-					items:1
 				}
+				// 600:{
+				// 	items:1
+				// },
+				// 1200:{
+				// 	items:1
+				// }
 			}
 		});
 	}

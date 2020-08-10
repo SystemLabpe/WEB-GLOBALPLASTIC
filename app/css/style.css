@@ -1582,6 +1582,10 @@ div#mCSB_1_container{
   transform: translateY(-50%);
 }
 
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none;
+}
+
 .main-slider .owl-nav [class*="owl-"]{
   position: absolute;
   cursor: pointer;
