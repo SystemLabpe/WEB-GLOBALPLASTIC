@@ -1,7 +1,7 @@
 /*  Theme Responsive Css */
 
 @media only screen and (max-width: 5000px){
-  
+
   .boxed_wrapper{
     overflow-x: hidden;
   }
@@ -12,12 +12,17 @@
 @media only screen and (max-width: 1599px){
 
   .main-header .outer-container .header-upper .upper-left .info-box{
-    margin-left: 30px;
+    margin-left: 00px;
   }
 
   .main-header .outer-container{
     padding: 0px 40px;
   }
+
+  .main-header.style-one .outer-container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
   .main-header .outer-container .header-upper .upper-right .menu-right-content{
     margin-left: 20px;
@@ -75,7 +80,7 @@
     margin-left: 60px;
   }
 
-  .main-footer .footer-upper .shediul-widget, 
+  .main-footer .footer-upper .shediul-widget,
   .main-footer .footer-upper .contact-widget{
     margin-left: 20px;
   }
@@ -127,7 +132,7 @@
     margin-bottom: 20px;
   }
 
-  .top-title .title-inner, 
+  .top-title .title-inner,
   .top-title .text-inner{
     float: none;
     display: block;
@@ -405,7 +410,7 @@
 }
 
 @media only screen and (max-width: 599px){
-  
+
   .main-slider h1,
   .page-title .content-box h1{
     font-size: 45px;
