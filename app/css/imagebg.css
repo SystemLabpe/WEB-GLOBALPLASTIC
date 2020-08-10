@@ -187,7 +187,7 @@
 }
 
 .preloader{
-  position: fixed; 
+  position: fixed;
   left:0px;
   top:0px;
   height:100%;
@@ -196,5 +196,6 @@
   background-color:#fff;
   background-position:center center;
   background-repeat:no-repeat;
-  background-image:url(../images/icons/preloader.gif);
+  background-image:url(../images/icons/preloader.png);
+  /*background-image:url(../images/icons/preloader.gif);*/
 }
