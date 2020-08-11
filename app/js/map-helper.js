@@ -4,14 +4,13 @@
 function gMap () {
     if ($('.google-map').length) {
         $('.google-map').each(function () {
-            // getting options from html 
+            // getting options from html
             var mapName = $(this).attr('id');
             var mapLat = $(this).data('map-lat');
             var mapLng = $(this).data('map-lng');
             var iconPath = $(this).data('icon-path');
             var mapZoom = $(this).data('map-zoom');
             var mapTitle = $(this).data('map-title');
-
             // defined default style
             var styles = [
                     {
@@ -94,7 +93,7 @@ function gMap () {
                     }
                 ];
 
-            
+
             // if zoom not defined the zoom value will be 15;
             if (!mapZoom) {
                 var mapZoom = 11;
@@ -105,32 +104,38 @@ function gMap () {
                 div: '#'+mapName,
                 scrollwheel: false,
                 lat: mapLat,
-                lng: mapLng,                
+                lng: mapLng,
                 styles: styles,
                 zoom: mapZoom
             });
             // if icon path setted then show marker
             if(iconPath) {
-                map.addMarker({
-                    icon: iconPath,
-                    lat: mapLat,
-                    lng: mapLng,
-                    title: mapTitle
-                });
-                map.addMarker({
-                    icon: iconPath,
-                    lat: 40.700843,         //you can
-                    lng: 40.700843,
-                    title: "New York"
-                });
+              var marker =  new google.maps.Marker({
+                icon: iconPath,
+                position: { lat: mapLat, lng: mapLng },
+                title: mapTitle
+              });
+
+              map.addMarker(marker);
+
+
+              var infowindow = new google.maps.InfoWindow({
+                content: "<h5>Global Plastic</h5><p>Calle Los Martillos Mz. B Lote 2, Los Olivos </br> Lima, Perú</p>"
+              });
+
+              marker.addListener('click', function() {
+                infowindow.open(map, marker);
+              });
+
+              google.maps.event.trigger(marker, 'click');
             }
-        });  
+        });
     };
 }
 
 
 
-// instance of fuction while Document ready event   
+// instance of fuction while Document ready event
 jQuery(document).on('ready', function () {
     (function ($) {
         gMap();
