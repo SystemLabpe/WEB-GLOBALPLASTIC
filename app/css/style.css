@@ -3973,6 +3973,11 @@ div#mCSB_1_container{
   margin-bottom: 8px;
 }
 
+#about-us .page-title .content-box h1,
+#about-us .page-title .content-box .text{
+  color: #fff;
+}
+
 .page-title .content-box .text{
   position: relative;
   font-size: 18px;
