@@ -74,7 +74,7 @@ body {
   line-height:26px;
   font-weight:400;
   background:#ffffff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center top;
@@ -133,7 +133,7 @@ a:hover{
 }
 
 input,button,select,textarea{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   font-size: 16px;
 }
@@ -159,7 +159,7 @@ textarea:focus{
 p{
   position: relative;
   color: #666666;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-bottom: 0px;
   font-style: normal;
   transition: all 500ms ease;
@@ -167,7 +167,7 @@ p{
 
 h1,h2,h3,h4,h5,h6{
   position:relative;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   font-weight: 400;
   color: #0e1221;
   margin: 0px;
@@ -177,7 +177,7 @@ h1,h2,h3,h4,h5,h6{
 .text{
   font-size: 16px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #666;
   margin: 0px;
 }
@@ -226,7 +226,7 @@ img {
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #fff !important;
   padding: 17px 37px;
   text-align: center;
@@ -366,7 +366,7 @@ img {
 .sec-title h1{
   position: relative;
   font-size: 48px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   line-height: 58px;
   color: #222;
   font-weight: 400;
@@ -521,7 +521,7 @@ img {
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #333;
 }
 
@@ -571,7 +571,7 @@ img {
   font-size: 14px;
   font-weight: 700;
   color: #fff;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   border-radius: 50%;
   transition: all 500ms ease;
 }
@@ -747,7 +747,7 @@ img {
   line-height:30px;
   font-weight:700;
   opacity:1;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color:#222;
   padding: 0px;
   z-index:1;
@@ -1831,7 +1831,7 @@ div#mCSB_1_container{
   font-size: 22px;
   line-height: 30px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   margin-bottom: 33px;
 }
 
@@ -2475,7 +2475,7 @@ div#mCSB_1_container{
   position: relative;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0px;
@@ -2620,7 +2620,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   color: #222;
   text-transform: uppercase;
@@ -2753,7 +2753,7 @@ div#mCSB_1_container{
   height: 60px;
   background: #fff;
   font-size: 18px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   border: 3px solid #fff;
   padding: 10px 200px 10px 40px;
   border-radius: 30px;
@@ -3404,7 +3404,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 48px;
   line-height: 60px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   font-weight: 700;
   margin-bottom: 3px;
 }
@@ -3669,7 +3669,7 @@ div#mCSB_1_container{
   position: relative;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
@@ -4117,7 +4117,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 16px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   color: #222;
   text-transform: uppercase;
@@ -4593,7 +4593,7 @@ div#mCSB_1_container{
   display: inline-block;
   font-size: 24px;
   color: #222;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   font-weight: 400;
   margin-right: 18px;
   top: 3px;
@@ -4606,7 +4606,7 @@ div#mCSB_1_container{
   top: -19px;
   font-size: 24px;
   color: #222;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
 }
 
 .shop-page-section .shop-sidebar .range-slider .input{
@@ -4624,7 +4624,7 @@ div#mCSB_1_container{
   background:none;
   font-size: 24px;
   color: #222;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   text-align:left;
 }
 
@@ -4797,7 +4797,7 @@ div#mCSB_1_container{
   border: none;
   text-align: center;
   font-size: 16px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #222;
 }
 
@@ -4892,7 +4892,7 @@ div#mCSB_1_container{
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   margin-bottom: 33px;
 }
 
@@ -4960,7 +4960,7 @@ div#mCSB_1_container{
   font-size: 30px;
   line-height: 40px;
   color: #666;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   cursor: pointer;
   margin: 0px 10px;
   padding-bottom: 20px;
@@ -5305,7 +5305,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 20px;
   line-height: 36px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Comfortaa', serif;
   color: #222;
   font-weight: 500;
   font-style: italic;
@@ -5331,7 +5331,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 26px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-style: normal;
@@ -5427,7 +5427,7 @@ div#mCSB_1_container{
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #222;
 }
 
@@ -5482,7 +5482,7 @@ div#mCSB_1_container{
   display: block;
   font-size: 18px;
   line-height: 20px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   color: #222;
   margin-bottom: 0px;
