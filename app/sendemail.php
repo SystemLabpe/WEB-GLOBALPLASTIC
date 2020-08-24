@@ -23,12 +23,12 @@ if ( $userName && $senderEmail && $userPhone /*&& $userSubject*/ && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   // Set Location After Successsfull Submission
-  header('Location: contacto.html?message=Successfull');
+  // header('Location: contacto.html?message=Successfull');
 }
 
 else{
 	//Set Location After Unsuccesssfull Submission
-  	header('Location: contacto.html?message=Failed');
+  	// header('Location: contacto.html?message=Failed');
 }
 
 ?>

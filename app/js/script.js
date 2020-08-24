@@ -81,7 +81,7 @@
 	}
 
 	//Contact Form Validation
-	if($('#contact-form').length){
+	/*if($('#contact-form').length){
 		$('#contact-form').validate({
 			rules: {
 				username: {
@@ -102,7 +102,7 @@
 				}
 			}
 		});
-	}
+	}*/
 
 	//Fact Counter + Text Count
 	if($('.count-box').length){
