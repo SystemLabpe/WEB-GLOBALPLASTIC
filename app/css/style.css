@@ -1521,7 +1521,7 @@ div#mCSB_1_container{
 
 .main-slider .image-box{
   position: relative;
-  padding-right: 65px;
+  /*padding-right: 65px;*/
 }
 
 .main-slider .image-box .bg-layer{
