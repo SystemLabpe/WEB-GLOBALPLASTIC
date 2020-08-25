@@ -1777,7 +1777,7 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
-.single-shop-block:hover .image-box img{
+/*.single-shop-block:hover .image-box img{
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -1788,7 +1788,7 @@ div#mCSB_1_container{
   -ms-transform: rotateY(180deg);
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
-}
+}*/
 
 .single-shop-block .size{
   position: relative;
