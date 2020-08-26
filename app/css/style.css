@@ -1384,7 +1384,7 @@ div#mCSB_1_container{
 .main-slider .slide{
   position:relative;
   width: 100%;
-  padding: 175px 0px 100px 0px;
+  padding: 120px 0px 100px 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1571,7 +1571,6 @@ div#mCSB_1_container{
   text-align: center;
   left: 50%;
   bottom: 52px;
-  display: none;
 }
 
 .main-slider .owl-nav{
@@ -1582,8 +1581,17 @@ div#mCSB_1_container{
   transform: translateY(-50%);
 }
 
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-    display: none;
+.owl-theme .owl-dots .owl-dot span {
+  background: #D6D6D6;
+  display: block;
+  margin: 0px 5px 0px 5px;
+  transition: opacity 200ms ease 0s;
+  width: 15px;
+  height: 15px;
+  border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: none repeat scroll 0 0 #8ea2ec;
 }
 
 .main-slider .owl-nav [class*="owl-"]{
@@ -1601,6 +1609,10 @@ div#mCSB_1_container{
   border-radius: 50%;
   text-align: center;
   transition: all 500ms ease;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+  display: none;
 }
 
 .main-slider .owl-nav .owl-prev{
