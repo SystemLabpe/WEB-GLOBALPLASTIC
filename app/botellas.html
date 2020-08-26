@@ -124,24 +124,40 @@
     <div class="auto-container">
       <div class="row clearfix">
         <div class="col-lg-4 col-md-12 col-sm-12 sideber-side">
-          <div class="shop-sidebar default-sidebar">
+          <div id="products-filter" class="shop-sidebar default-sidebar">
             <div class="sidebar-categories sidebar-widget">
               <h3 class="widget-title">Botellas</h3>
               <div class="widget-content">
-                <ul class="categories-list clearfix">
-                  <li><a href="#">Agua</a></li>
-                  <li><a href="#">Alcoholeras</a></li>
-                  <li><a href="#">Babalu</a></li>
-                  <li><a href="#">Gaseosa</a></li>
-                  <li><a href="#">Jugos</a></li>
-                  <li><a href="#">Tubular</a></li>
-                  <li><a href="#">Otros Alimento</a></li>
-                  <li><a href="#">Otros Limpieza</a></li>
-                  <li><a href="#">Botellas de Colores</a></li>
+                <ul class="categories-list clearfix" data-filter-group="category">
+                  <li><a class="is-checked" data-filter="*">Todas</a></li>
+                  <li><a data-filter=".agua">Agua</a></li>
+                  <li><a data-filter=".alcoholeras">Alcoholeras</a></li>
+                  <li><a data-filter=".babalu">Babalu</a></li>
+                  <li><a data-filter=".gaseosa">Gaseosa</a></li>
+                  <li><a data-filter=".jugos">Jugos</a></li>
+                  <li><a data-filter=".tubular">Tubular</a></li>
+                  <li><a data-filter=".otros-alimento">Otros Alimento</a></li>
+                  <li><a data-filter=".otros-limpieza">Otros Limpieza</a></li>
+                  <li><a data-filter=".botellas-colores">Botellas de Colores</a></li>
                 </ul>
               </div>
             </div>
-            <div class="sidebar-tags sidebar-widget">
+            <div class="sidebar-categories sidebar-widget" data-filter-group="capacity">
+              <h3 class="widget-title">Capacidad</h3>
+              <div class="widget-content">
+                <ul class="categories-list clearfix">
+                  <li><a href="#" class="is-checked" data-filter="*">Todas</a></li>
+                  <li><a data-filter=".less-than-250-ml" >De 125 ML a 250 ML</a></li>
+                  <li><a data-filter=".less-than-320-ml" >De 300 ML a 320 ML</a></li>
+                  <li><a data-filter=".less-than-420-ml" >De 360 ML a 420 ML</a></li>
+                  <li><a data-filter=".less-than-500-ml" >De 450 ML a 500 ML</a></li>
+                  <li><a data-filter=".less-than-650-ml" >De 600 ML a 650 ML</a></li>
+                  <li><a data-filter=".less-than-1500-ml" >De 950 ML a 1.5 L</a></li>
+                  <li><a data-filter=".less-than-3000-ml" >De 2 L a 3 ML</a></li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="sidebar-tags sidebar-widget">
               <h3 class="widget-title">Capacidad</h3>
               <div class="widget-content">
                 <ul class="tags-list clearfix">
@@ -168,13 +184,13 @@
                   <li><a href="#">3 L</a></li>
                 </ul>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-8 col-md-12 col-sm-12 content-side">
-          <div class="our-shop">
+          <div class="our-shop products-gallery">
             <div class="row clearfix">
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block agua less-than-500-ml">
                 <div class="single-shop-block">
                   <div class="inner-box">
                     <div class="border-one"></div>
@@ -188,7 +204,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block agua less-than-650-ml">
                 <div class="single-shop-block">
                   <div class="inner-box">
                     <div class="border-one"></div>
@@ -202,62 +218,90 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block  agua less-than-3000-ml">
                 <div class="single-shop-block">
                   <div class="inner-box">
                     <div class="border-one"></div>
                     <div class="border-two"></div>
                     <figure class="image-box"><img src="images/products/bottles/bot_agua_2.5lt.png" alt=""></figure>
                     <span class="size">2.5 LT</span>
-                    <h3>AGUA GAS</h3>
+                    <h3>AGUA</h3>
                     <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
                     <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
                     <div class="text"><span>Emabalaje:</span> 200 unds</div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block alcoholeras less-than-250-ml">
+                <div class="single-shop-block">
+                  <div class="inner-box">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                    <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
+                    <span class="size">125 ML</span>
+                    <h3>ALCOHOLERA</h3>
+                    <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
+                    <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
+                    <div class="text"><span>Emabalaje:</span> 200 unds</div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block alcoholeras less-than-250-ml">
+                <div class="single-shop-block">
+                  <div class="inner-box">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                    <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
+                    <span class="size">250 ML</span>
+                    <h3>ALCOHOLERA</h3>
+                    <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
+                    <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
+                    <div class="text"><span>Emabalaje:</span> 200 unds</div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block alcoholeras less-than-500-ml">
                 <div class="single-shop-block">
                   <div class="inner-box">
                     <div class="border-one"></div>
                     <div class="border-two"></div>
                     <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
                     <span class="size">500 ML</span>
-                    <h3>AGUA GAS</h3>
+                    <h3>ALCOHOLERA</h3>
                     <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
                     <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
                     <div class="text"><span>Emabalaje:</span> 200 unds</div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
+              <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block alcoholeras less-than-1500-ml">
+                <div class="single-shop-block">
+                  <div class="inner-box">
+                    <div class="border-one"></div>
+                    <div class="border-two"></div>
+                    <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
+                    <span class="size">1 L</span>
+                    <h3>ALCOHOLERA</h3>
+                    <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
+                    <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
+                    <div class="text"><span>Emabalaje:</span> 200 unds</div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="product-item col-lg-6 col-md-6 col-sm-12 shop-block otros-alimento less-than-500-ml">
                 <div class="single-shop-block">
                   <div class="inner-box">
                     <div class="border-one"></div>
                     <div class="border-two"></div>
                     <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
                     <span class="size">500 ML</span>
-                    <h3>AGUA GAS</h3>
+                    <h3>OTROS ALIMENTO</h3>
                     <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
                     <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
                     <div class="text"><span>Emabalaje:</span> 200 unds</div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 shop-block">
-                <div class="single-shop-block">
-                  <div class="inner-box">
-                    <div class="border-one"></div>
-                    <div class="border-two"></div>
-                    <figure class="image-box"><img src="images/resource/shop/shop-1.png" alt=""></figure>
-                    <span class="size">500 ML</span>
-                    <h3>AGUA GAS</h3>
-                    <div class="text"><span>Preforma:</span> 15Gr | Color Cristal</div>
-                    <div class="text"><span>Tapa:</span> N° 28 | Finish SF</div>
-                    <div class="text"><span>Emabalaje:</span> 200 unds</div>
-                  </div>
-                </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -352,6 +396,7 @@
   <script src="js/scrollbar.js"></script>
   <script src="js/jquery-ui.js"></script>
   <script src="js/appear.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
 
   <!-- main-js -->
   <script src="js/script.js"></script>

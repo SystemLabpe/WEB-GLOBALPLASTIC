@@ -4564,6 +4564,7 @@ div#mCSB_1_container{
   font-size: 18px;
   color: #666;
   padding-left: 18px;
+  cursor: pointer;
 }
 
 .default-sidebar .sidebar-categories .categories-list li a:before{
@@ -4578,8 +4579,8 @@ div#mCSB_1_container{
   transition: all 500ms ease;
 }
 
-.default-sidebar .sidebar-categories .categories-list li a:hover{
-
+.default-sidebar .sidebar-categories .categories-list li a.is-checked{
+  color: #13bbea;
 }
 
 .default-sidebar .sidebar-categories .categories-list li a:hover:before{
@@ -5871,3 +5872,11 @@ div#mCSB_1_container{
          opacity: 0;
      }
  }
+
+/***
+
+====================================================================
+                        Products-Page
+====================================================================
+
+***/
