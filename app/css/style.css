@@ -5880,3 +5880,9 @@ div#mCSB_1_container{
 ====================================================================
 
 ***/
+
+#product-bottle,
+#product-gallon,
+#product-others {
+  cursor: pointer;
+}

@@ -165,7 +165,20 @@
 		});
 	}
 
+  $("#product-bottle").on('click', function(e) {
+    e.preventDefault();
+    window.location = "botellas.html";
+  });
 
+  $("#product-gallon").on('click', function(e) {
+    e.preventDefault();
+    window.location = "galoneras.html";
+  });
+
+  $("#product-others").on('click', function(e) {
+    e.preventDefault();
+    window.location = "otros.html";
+  });
 
 	//Accordion Box
 	if($('.accordion-box').length){
