@@ -24,6 +24,17 @@
   background-repeat: no-repeat;
 }
 
+.sec-title.sec-title-value h1:before{
+  position: absolute;
+  content: '';
+  background: none;
+  width: 33px;
+  height: 8px;
+  right: 0px;
+  bottom: 0px;
+  background-repeat: no-repeat;
+}
+
 .feature-section .feature-block:before{
   position: absolute;
   content: '';
