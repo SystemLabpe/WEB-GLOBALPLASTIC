@@ -1745,6 +1745,10 @@ div#mCSB_1_container{
   padding-bottom: 24px;
 }
 
+.top-title .title-inner .sec-title.sec-title-value h1{
+  padding-top: 20px;
+}
+
 .top-title .title-inner .sec-title:before{
   position: absolute;
   content: '';
@@ -1760,6 +1764,14 @@ div#mCSB_1_container{
   padding-left: 50px;
   padding-right: 120px;
   margin-top: 5px;
+}
+
+.top-title .text-inner .text.text-value{
+  position: relative;
+  padding-left: 50px;
+  padding-right: 120px;
+  margin-top: 5px;
+  padding-top: 25px;
 }
 
 .single-shop-block .inner-box{
