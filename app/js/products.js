@@ -10,7 +10,19 @@
   $container.isotope({
     // options
     itemSelector: '.product-item',
-    layoutMode: 'fitRows'
+    layoutMode: 'fitRows',
+    getSortData: {
+      capacity: function(itemElem) {
+        // console.log($(itemElem));
+        // console.log($(itemElem).attr('data-category'));
+        // if ($(itemElem).hasAttr('data-category')) {
+        if (typeof $(itemElem) !== typeof undefined && $(itemElem) !== false) {
+          var capacity = $(itemElem).attr('data-category');
+          console.log('capacity => ', capacity);
+          return parseInt(capacity);
+        }
+      }
+    }
   });
 
   var filters = {};
@@ -27,7 +39,8 @@
     var filterValue = concatValues(filters);
 
     $container.isotope({
-      filter: filterValue
+      filter: filterValue,
+      sortBy: 'capacity'
     });
   });
 
