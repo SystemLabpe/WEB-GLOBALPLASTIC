@@ -374,8 +374,8 @@ img {
 }
 
 .sec-title.text-center h1:before{
-  right: 48% !important;
-  left: inherit;
+  left: : 50% !important;
+  margin-left: -16px;
 }
 
 
