@@ -268,26 +268,29 @@
 	//Main Slider Carousel
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
-      loop:true,
+      loop: true,
       autoplay: true,
       autoplayTimeout: 8000,
       active: true,
+      animateOut: false,
       nav: false,
       mouseDrag: true,
       touchDrag: true,
       navText: [ '<span class="flaticon-back"></span>', '<span class="flaticon-right"></span>' ],
       pullDrag: false,
-			responsive:{
-				0:{
-					items:1
-				}
+			responsive: false,
+      items: 1
+
+				// 0:{
+				// 	items:1
+				// }
 				// 1000:{
 				// 	items:1
 				// },
 				// 1200:{
 				// 	items:1
 				// }
-			}
+			// }
 		});
 	}
 

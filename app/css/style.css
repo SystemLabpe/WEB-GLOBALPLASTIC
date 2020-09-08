@@ -1439,7 +1439,7 @@ div#mCSB_1_container{
   font-weight: 700;
   margin-bottom: 33px;
   opacity:0;
-  -webkit-transition: all 1000ms ease;
+  /*-webkit-transition: all 1000ms ease;
   -moz-transition: all 1000ms ease;
   -ms-transition: all 1000ms ease;
   -o-transition: all 1000ms ease;
@@ -1448,17 +1448,17 @@ div#mCSB_1_container{
   -moz-transform: translateX(-50px);
   -ms-transform: translateX(-50px);
   -o-transform: translateX(-50px);
-  transform: translateX(-50px);
+  transform: translateX(-50px);*/
 }
 
 .main-slider .active h1{
   opacity: 1;
-  -webkit-transform: translateX(0);
+  /*-webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
   transform: translateX(0);
-  transition-delay: 1000ms;
+  transition-delay: 1000ms;*/
 }
 
 .main-slider .text{
