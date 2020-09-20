@@ -1728,10 +1728,19 @@ div#mCSB_1_container{
   margin-bottom: 30px;
 }
 
-.top-title .title-inner,
+#about-us .top-title {
+  margin-top: 40px;
+}
+
+.top-title .title-inner {
+  position: relative;
+  width: 30%;
+  float: left;
+}
+
 .top-title .text-inner{
   position: relative;
-  width: 50%;
+  width: 70%;
   float: left;
 }
 
@@ -3412,7 +3421,7 @@ div#mCSB_1_container{
 
 .fact-counter{
   position: relative;
-  padding: 80px 0px;
+  padding: 140px 0px 80px;
 }
 
 .fact-counter .counter-block{
@@ -5899,4 +5908,8 @@ div#mCSB_1_container{
 #product-gallon,
 #product-others {
   cursor: pointer;
+}
+
+#products-other .product-item .inner-box {
+  min-height: 480px;
 }
