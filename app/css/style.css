@@ -81,13 +81,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-  @media (min-width:1200px) {
-  .container {
-    max-width: 1200px;
-    padding: 0px 15px;
-  }
-}
-
 .large-container{
   max-width: 1570px;
   padding: 0 100px;
@@ -1513,6 +1506,10 @@ div#mCSB_1_container{
   -o-transform: translateY(0);
   transform: translateY(0);
   transition-delay: 1500ms;
+}
+
+.main-slider .btn-right {
+  display: none;
 }
 
 .main-slider .btn-box .theme-btn.style-one{

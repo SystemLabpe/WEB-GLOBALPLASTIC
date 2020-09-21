@@ -269,7 +269,7 @@
 	if ($('.main-slider-carousel').length) {
 		$('.main-slider-carousel').owlCarousel({
       loop: true,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 8000,
       active: true,
       animateOut: false,
