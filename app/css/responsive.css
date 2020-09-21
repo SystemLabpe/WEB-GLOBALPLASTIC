@@ -431,6 +431,16 @@
 
 @media only screen and (max-width: 599px){
 
+  .main-header .outer-container {
+    position: relative;
+    padding-bottom: 30px;
+    padding-top: 15px;
+  }
+
+  .header-upper {
+    display: flex;
+  }
+
   .main-slider h1,
   .page-title .content-box h1{
     font-size: 32px;
@@ -484,11 +494,17 @@
 
   .main-header .outer-container .header-upper .upper-left .logo-box{
     float: none;
+    text-align: left;
+    padding: 0;
+  }
+
+  .main-header .outer-container .header-upper .upper-right>div {
+    margin-left: auto;
   }
 
   .main-header .outer-container{
     position: relative;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
   }
 
   .main-slider .slide{
@@ -496,7 +512,7 @@
   }
 
   .menu-area .mobile-nav-toggler{
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .main-header .outer-container .header-upper .upper-right .menu-right-content{
@@ -505,6 +521,8 @@
 
   .main-header .outer-container .header-upper .upper-right{
     width: 100%;
+    display: flex;
+    margin-left: auto;
   }
 
   .main-header .outer-container .header-upper .upper-right .menu-right-content{
