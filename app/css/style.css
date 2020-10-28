@@ -1754,6 +1754,7 @@ div#mCSB_1_container{
 
 .top-title .title-inner .sec-title.sec-title-value h1{
   padding-top: 20px;
+  font-size: 30px;
 }
 
 .top-title .title-inner .sec-title:before{
@@ -1779,6 +1780,7 @@ div#mCSB_1_container{
   padding-right: 120px;
   margin-top: 5px;
   padding-top: 25px;
+  font-size: 20px;
 }
 
 .single-shop-block .inner-box{
