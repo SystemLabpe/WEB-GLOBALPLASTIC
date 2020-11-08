@@ -4024,7 +4024,13 @@ div#mCSB_1_container{
   padding: 80px 0px 0px 0px;
 }
 
+.about-us p{
+  font-size:  20px;
+}
 
+.mission-vision .text{
+  font-size: 20px
+}
 
 /***
 
