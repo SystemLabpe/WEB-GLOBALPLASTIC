@@ -17,9 +17,13 @@ $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subj
 // If all values exist, send the email
 if ( $userName && $senderEmail && $userPhone) {
   $recipient = RECIPIENT_NAME . " <" . RECIPIENT_EMAIL . ">";
-  $headers = "From: " . "Página Web" . "";
-  $headers  = 'MIME-Version: 1.0' . "\r\n";
-  $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+  
+  $headers  = "From: " . "Web@globalplastic.pe" . "\r\n";
+  $headers .= "Organization: Global Plastic\r\n";
+  $headers .= "MIME-Version: 1.0" . "\r\n";
+  $headers .= "Content-type: text/html; charset=iso-8859-1" . "\r\n";
+  $headers .= "X-Priority: 3\r\n";
+  $headers .= "X-Mailer: PHP". phpversion() ."\r\n";
 
   $msgBody = 
 	'
