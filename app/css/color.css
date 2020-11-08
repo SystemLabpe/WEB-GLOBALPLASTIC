@@ -33,6 +33,10 @@
   background: #2C4B86 !important;
 }
 
+.bg-color-3{
+  background: #ffffff !important;
+}
+
 .pagination li a:hover,
 .pagination li a.active{
   border-color: #0578BE;
