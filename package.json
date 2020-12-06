@@ -2,7 +2,12 @@
   "name": "project-name",
   "version": "0.0.1",
   "author": "SystemLab",
-  "dependencies": {},
+  "dependencies": {
+    "natives": "^1.1.6"
+  },
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions"
+  },
   "devDependencies": {
     "gulp": "~3.9.0",
     "gulp-connect": "~2.2.0",
@@ -15,5 +20,8 @@
     "jshint-stylish": "~1.0.1",
     "gulp-inject": "~1.2.0",
     "wiredep": "~2.2.2"
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
   }
 }

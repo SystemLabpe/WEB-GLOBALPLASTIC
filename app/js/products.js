@@ -21,7 +21,6 @@
           // if ($(itemElem).hasAttr('data-category')) {
           if (typeof $(itemElem) !== typeof undefined && $(itemElem) !== false) {
             var capacity = $(itemElem).attr('data-category');
-            console.log('capacity => ', capacity);
             return parseInt(capacity);
           }
         }
@@ -66,8 +65,15 @@
     return value;
   }
 
-  $(window).on('load', function() {
-    setupFilter();
+  // $(window).on('load', function() {
+  //   setupFilter();
+  // });
+
+  jQuery(document).on('ready', function () {
+    (function ($) {
+      setupFilter();
+    })(jQuery);
   });
+
 
  })(window.jQuery);

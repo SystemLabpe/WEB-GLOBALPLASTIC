@@ -56,7 +56,7 @@ gulp.task('compress', function() {
   gulp.src('./app/index.html')
   .pipe(useref.assets())
   .pipe(gulpif('*.js', uglify({mangle: false })))
-  .pipe(gulpif('*.css', minifyCss()))
+  // .pipe(gulpif('*.css', minifyCss()))
   .pipe(gulp.dest('./dist'));
 });
 
@@ -68,10 +68,10 @@ gulp.task('copy', function() {
   .pipe(gulp.dest('./dist'));
   gulp.src('./app/fonts/**')
   .pipe(gulp.dest('./dist/fonts'));
-  gulp.src('./app/lib/font-awesome/fonts/**')
-  .pipe(gulp.dest('./dist/fonts'));
-  gulp.src('./app/img/**')
-  .pipe(gulp.dest('./dist/img'));
+  gulp.src('./app/images/**')
+  .pipe(gulp.dest('./dist/images'));
+  gulp.src('./app/php/**')
+  .pipe(gulp.dest('./dist/php'));
 });
 
 // Vigila cambios que se produzcan en el código
@@ -81,4 +81,4 @@ gulp.task('watch', function() {
 });
 
 gulp.task('default', ['server', 'watch']);
-gulp.task('build', ['compress', 'copy']);
+gulp.task('build', ['compress']);
